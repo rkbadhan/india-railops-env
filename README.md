@@ -19,7 +19,7 @@ What the benchmark covers, so you know what a score means:
 - **Line type.** All 200 frozen problems are double-line sections with a separate block per direction. The generator also supports shared single-line blocks (`--block-mode shared`), but none of the frozen problems use it. Third-line tracks are excluded.
 - **The agent does not choose berths.** The dispatcher assigns them. The optimum is still reachable with holds and a priority order on all 200 frozen problems (see the protocol).
 
-> TODO (author, before publishing): add one accurate paragraph on how this relates to RailSimEnv (`bp-high/RLSimEnvs`). It has not been compared here, so no claim is made.
+See also: RailSimEnv in [`bp-high/RLSimEnvs`](https://github.com/bp-high/RLSimEnvs).
 
 ## Quickstart
 
@@ -69,14 +69,16 @@ The 1- and 4-trial columns use all 100 problems with 3 repeats each; the 32-tria
 ## How held-out scoring works
 
 - `benchmarks/tuning_v1` (seeds 0-99) is complete, with certified answers. Build and tune against it.
-- `benchmarks/heldout_v1` (seeds 100-199) publishes the **problems only**. The answers are withheld by the maintainers and never appear in this repository.
-- [`benchmarks/heldout_v1/ANSWER_HASHES.txt`](benchmarks/heldout_v1/ANSWER_HASHES.txt) lists the SHA-256 of each withheld answer file. If the answers are revealed later, `sha256sum -c ANSWER_HASHES.txt` shows that they match what was fixed before any score was reported.
-- The held-out numbers above were produced with the private answers. Without them you can still run a controller on a held-out problem (`python -m railway_env play ...`) and get validity and raw weighted delay, but no normalized score. Do not tune against the held-out problems: a held-out score only means something if the controller was built without them.
+- `benchmarks/heldout_v1` (seeds 100-199) publishes the **problems only**. The answer files are not in this repository.
+- **The held-out set is public in effect.** The generator, the data tables and the solver are all public, and the seeds are documented, so anyone can regenerate these problems and solve them. We checked this on a sample: the regenerated problems were identical to the published ones. Treat `heldout_v1` as a public test set. For a test that nobody can train on, generate new problems with seeds you never publish.
+- [`benchmarks/heldout_v1/ANSWER_HASHES.txt`](benchmarks/heldout_v1/ANSWER_HASHES.txt) lists the SHA-256 of each answer file kept by the maintainers. It shows that the answers behind a reported score were fixed in advance. It does not stop anyone from computing them.
+- The held-out numbers above were produced with the maintainers' answer files. Without them you can still run a controller on a held-out problem (`python -m railway_env play ...`) and get validity and raw weighted delay, but no normalized score. Do not tune against the held-out problems: a held-out score only means something if the controller was built without them, and nothing here can enforce that.
 - The frozen files are the benchmark. Do not regenerate problems from seeds; the processed data could change.
 
 ## Limitations
 
 - **Synthetic freight and disruptions.** Freight speeds, lengths and weights are chosen to create hard problems and are not measured from operations. Every problem has exactly one late passenger train and one signal closure.
+- **Public test set.** The held-out problems can be regenerated from public code and data, so a published score cannot rule out contamination.
 - **One region.** Problems come from three sections of the Sambalpur division, as 26 six-station windows. 98 of the 100 held-out windows also appear in the tuning set, so the held-out set tests new seeds, trains and disruptions on familiar track, not a different line.
 - **Double-line only in the frozen suites,** as above.
 - **Deterministic times.** Running times are fixed; there is no stochastic delay beyond the one late train.

@@ -1,6 +1,6 @@
 # Frozen model-evaluation protocol
 
-> **Public copy.** The held-out problems are published but their answer files are withheld; only their SHA-256 hashes are in `benchmarks/heldout_v1/ANSWER_HASHES.txt`. Statements below that mention stored held-out answers describe the maintainers' private copy. `benchmarks/tuning_v1` is complete, with answers.
+> **Public copy.** The held-out problems are published but their answer files are withheld; only their SHA-256 hashes are in `benchmarks/heldout_v1/ANSWER_HASHES.txt`. Statements below that mention stored held-out answers describe the maintainers' private copy. `benchmarks/tuning_v1` is complete, with answers. The held-out set is public in effect, because the generator, data and solver are public and anyone can regenerate and solve it.
 
 ## Fixed problems and reference answers
 
