@@ -1,0 +1,713 @@
+{
+  "schema_version": 1,
+  "id": "seed-0-JUJA-HNPA",
+  "seed": 0,
+  "corridor": {
+    "section": "SBP-KPJG",
+    "stations": [
+      {
+        "code": "JUJA",
+        "name": "Jujomura",
+        "tracks": [
+          {
+            "id": "main:3",
+            "length_m": 879,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 755,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:4",
+            "length_m": 931,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "CHAR",
+        "name": "Charmal",
+        "tracks": [
+          {
+            "id": "main:4",
+            "length_m": 1595,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 756,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:2",
+            "length_m": 790,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:5",
+            "length_m": 1535,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "RAIR",
+        "name": "Rairakhol",
+        "tracks": [
+          {
+            "id": "main:4",
+            "length_m": 1170,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 789,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:3",
+            "length_m": 1029,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "BAMR",
+        "name": "Bamur",
+        "tracks": [
+          {
+            "id": "main:3",
+            "length_m": 1001,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 744,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:4",
+            "length_m": 916,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:5",
+            "length_m": 744,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:6",
+            "length_m": 718,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "SRGP",
+        "name": "Sargipalli",
+        "tracks": [
+          {
+            "id": "main:3",
+            "length_m": 750,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 752,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:4",
+            "length_m": 739,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "HNPA",
+        "name": "Handapa",
+        "tracks": [
+          {
+            "id": "main:3",
+            "length_m": 856,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 749,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:4",
+            "length_m": 749,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:5",
+            "length_m": 749,
+            "kind": "loop"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "a": "JUJA",
+        "b": "CHAR",
+        "up_minutes": 11,
+        "down_minutes": 11,
+        "distance_km": 17.0
+      },
+      {
+        "a": "CHAR",
+        "b": "RAIR",
+        "up_minutes": 11,
+        "down_minutes": 11,
+        "distance_km": 15.0
+      },
+      {
+        "a": "RAIR",
+        "b": "BAMR",
+        "up_minutes": 10,
+        "down_minutes": 10,
+        "distance_km": 16.0
+      },
+      {
+        "a": "BAMR",
+        "b": "SRGP",
+        "up_minutes": 7,
+        "down_minutes": 7,
+        "distance_km": 9.4
+      },
+      {
+        "a": "SRGP",
+        "b": "HNPA",
+        "up_minutes": 9,
+        "down_minutes": 9,
+        "distance_km": 14.0
+      }
+    ],
+    "source_line_type": "double",
+    "operating_mode": "separate block per direction",
+    "block_mode": "directional"
+  },
+  "trains": [
+    {
+      "id": "F2",
+      "kind": "freight",
+      "route": [
+        "HNPA",
+        "SRGP",
+        "BAMR",
+        "RAIR",
+        "CHAR",
+        "JUJA"
+      ],
+      "length_m": 550,
+      "weight": 1,
+      "release": 7,
+      "scheduled_arrivals": [
+        7,
+        24,
+        37,
+        55,
+        75,
+        95
+      ],
+      "scheduled_departures": [
+        8,
+        25,
+        38,
+        56,
+        76,
+        95
+      ],
+      "running_times": [
+        16,
+        12,
+        17,
+        19,
+        19
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "P22840-DN",
+      "kind": "passenger",
+      "route": [
+        "HNPA",
+        "SRGP",
+        "BAMR",
+        "RAIR",
+        "CHAR",
+        "JUJA"
+      ],
+      "length_m": 520,
+      "weight": 10,
+      "release": 15,
+      "scheduled_arrivals": [
+        0,
+        9,
+        16,
+        27,
+        42,
+        53
+      ],
+      "scheduled_departures": [
+        0,
+        9,
+        16,
+        29,
+        42,
+        53
+      ],
+      "running_times": [
+        9,
+        7,
+        11,
+        13,
+        11
+      ],
+      "dwell_times": [
+        0,
+        0,
+        0,
+        2,
+        0,
+        0
+      ],
+      "source_train_no": "22840"
+    },
+    {
+      "id": "F5",
+      "kind": "freight",
+      "route": [
+        "JUJA",
+        "CHAR",
+        "RAIR",
+        "BAMR",
+        "SRGP",
+        "HNPA"
+      ],
+      "length_m": 550,
+      "weight": 1,
+      "release": 24,
+      "scheduled_arrivals": [
+        24,
+        44,
+        64,
+        82,
+        95,
+        112
+      ],
+      "scheduled_departures": [
+        25,
+        45,
+        65,
+        83,
+        96,
+        112
+      ],
+      "running_times": [
+        19,
+        19,
+        17,
+        12,
+        16
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "F4",
+      "kind": "freight",
+      "route": [
+        "HNPA",
+        "SRGP",
+        "BAMR",
+        "RAIR",
+        "CHAR",
+        "JUJA"
+      ],
+      "length_m": 650,
+      "weight": 8,
+      "release": 42,
+      "scheduled_arrivals": [
+        42,
+        53,
+        62,
+        74,
+        88,
+        102
+      ],
+      "scheduled_departures": [
+        43,
+        54,
+        63,
+        75,
+        89,
+        102
+      ],
+      "running_times": [
+        10,
+        8,
+        11,
+        13,
+        13
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "P12894-UP",
+      "kind": "passenger",
+      "route": [
+        "JUJA",
+        "CHAR",
+        "RAIR",
+        "BAMR",
+        "SRGP",
+        "HNPA"
+      ],
+      "length_m": 520,
+      "weight": 20,
+      "release": 47,
+      "scheduled_arrivals": [
+        47,
+        58,
+        70,
+        89,
+        96,
+        105
+      ],
+      "scheduled_departures": [
+        47,
+        58,
+        72,
+        89,
+        96,
+        105
+      ],
+      "running_times": [
+        11,
+        12,
+        17,
+        7,
+        9
+      ],
+      "dwell_times": [
+        0,
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "source_train_no": "12894"
+    },
+    {
+      "id": "F7",
+      "kind": "freight",
+      "route": [
+        "HNPA",
+        "SRGP",
+        "BAMR",
+        "RAIR",
+        "CHAR",
+        "JUJA"
+      ],
+      "length_m": 650,
+      "weight": 1,
+      "release": 65,
+      "scheduled_arrivals": [
+        65,
+        79,
+        90,
+        105,
+        122,
+        139
+      ],
+      "scheduled_departures": [
+        66,
+        80,
+        91,
+        106,
+        123,
+        139
+      ],
+      "running_times": [
+        13,
+        10,
+        14,
+        16,
+        16
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "F6",
+      "kind": "freight",
+      "route": [
+        "JUJA",
+        "CHAR",
+        "RAIR",
+        "BAMR",
+        "SRGP",
+        "HNPA"
+      ],
+      "length_m": 550,
+      "weight": 1,
+      "release": 69,
+      "scheduled_arrivals": [
+        69,
+        86,
+        103,
+        118,
+        129,
+        143
+      ],
+      "scheduled_departures": [
+        70,
+        87,
+        104,
+        119,
+        130,
+        143
+      ],
+      "running_times": [
+        16,
+        16,
+        14,
+        10,
+        13
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "F1",
+      "kind": "freight",
+      "route": [
+        "JUJA",
+        "CHAR",
+        "RAIR",
+        "BAMR",
+        "SRGP",
+        "HNPA"
+      ],
+      "length_m": 730,
+      "weight": 3,
+      "release": 70,
+      "scheduled_arrivals": [
+        70,
+        87,
+        104,
+        119,
+        130,
+        144
+      ],
+      "scheduled_departures": [
+        71,
+        88,
+        105,
+        120,
+        131,
+        144
+      ],
+      "running_times": [
+        16,
+        16,
+        14,
+        10,
+        13
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "F3",
+      "kind": "freight",
+      "route": [
+        "HNPA",
+        "SRGP",
+        "BAMR",
+        "RAIR",
+        "CHAR",
+        "JUJA"
+      ],
+      "length_m": 550,
+      "weight": 8,
+      "release": 90,
+      "scheduled_arrivals": [
+        90,
+        107,
+        120,
+        138,
+        158,
+        178
+      ],
+      "scheduled_departures": [
+        91,
+        108,
+        121,
+        139,
+        159,
+        178
+      ],
+      "running_times": [
+        16,
+        12,
+        17,
+        19,
+        19
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "F8",
+      "kind": "freight",
+      "route": [
+        "HNPA",
+        "SRGP",
+        "BAMR",
+        "RAIR",
+        "CHAR",
+        "JUJA"
+      ],
+      "length_m": 650,
+      "weight": 8,
+      "release": 90,
+      "scheduled_arrivals": [
+        90,
+        101,
+        110,
+        122,
+        136,
+        150
+      ],
+      "scheduled_departures": [
+        91,
+        102,
+        111,
+        123,
+        137,
+        150
+      ],
+      "running_times": [
+        10,
+        8,
+        11,
+        13,
+        13
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    }
+  ],
+  "disruption": {
+    "kind": "late_train",
+    "train_id": "P22840-DN",
+    "delay": 15,
+    "block": [],
+    "start": 0,
+    "end": 0
+  },
+  "window_start": 990,
+  "duration": 120,
+  "clearance": 1,
+  "metadata": {
+    "passenger_source": "Sambalpur WTT 2023 / passenger_paths.csv",
+    "infrastructure_sources": [
+      "stations.csv",
+      "block_sections.csv",
+      "loops.csv"
+    ],
+    "service_filter": "daily, non-suspended, complete through-train timings only",
+    "initial_state": "no passenger already in motion; entry queues are outside the board",
+    "synthetic": [
+      "freight trains",
+      "all train lengths",
+      "priority weights",
+      "disruption"
+    ],
+    "model": "separate block per direction; one measured main and measured loops per station",
+    "block_mode_selection": "source",
+    "freight_mix": "synthetic speed factors 1.1/1.4/1.7 and weights 1/3/8",
+    "main_selection": "longest conventional UP/DN main; third-line tracks excluded",
+    "scoring": "weighted final-arrival delay; all trains drain after the 120-minute entry window"
+  },
+  "additional_disruptions": [
+    {
+      "kind": "signal_failure",
+      "train_id": "",
+      "delay": 0,
+      "block": [
+        "CHAR",
+        "JUJA"
+      ],
+      "start": 40,
+      "end": 61
+    }
+  ]
+}

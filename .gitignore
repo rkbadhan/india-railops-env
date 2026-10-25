@@ -1,0 +1,25 @@
+# Raw downloads are not redistributed; recreate them with fetch_rail_data.py and fetch_sbp_station_docs.py.
+rail_data/*
+!rail_data/README.md
+!rail_data/manifest.csv
+!rail_data/processed/
+rail_data/processed/backups/
+!rail_data/infrastructure/
+rail_data/infrastructure/*
+!rail_data/infrastructure/station_diagrams/
+rail_data/infrastructure/station_diagrams/*
+!rail_data/infrastructure/station_diagrams/sbp/
+rail_data/infrastructure/station_diagrams/sbp/*
+!rail_data/infrastructure/station_diagrams/sbp/manifest.csv
+
+__pycache__/
+*.pyc
+.venv/
+
+# Generated dispatch episodes and benchmark results.
+runs/
+
+# Local API credentials; keep only the blank setup template tracked.
+.env
+.env.*
+!.env.example

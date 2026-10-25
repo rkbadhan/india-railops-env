@@ -1,0 +1,52 @@
+{
+  "budget 1": {
+    "beats_passenger_first": 0,
+    "reaches_certified_optimum": 22,
+    "mean_improvement_share": 0.0,
+    "mean_normalized_reward": 0.38609836967691535,
+    "cases_with_headroom": 78
+  },
+  "budget 4 reorder-only": {
+    "beats_passenger_first": 18,
+    "reaches_certified_optimum": 29,
+    "mean_improvement_share": 0.15788384490075233,
+    "mean_normalized_reward": 0.49032930903147387,
+    "cases_with_headroom": 78
+  },
+  "budget 32 reorder-only": {
+    "beats_passenger_first": 67,
+    "reaches_certified_optimum": 59,
+    "mean_improvement_share": 0.7186540005538884,
+    "mean_normalized_reward": 0.8465422730048562,
+    "cases_with_headroom": 78
+  },
+  "budget 4 holds alternating": {
+    "beats_passenger_first": 13,
+    "reaches_certified_optimum": 27,
+    "mean_improvement_share": 0.11564227929155052,
+    "mean_normalized_reward": 0.46246285506941126,
+    "cases_with_headroom": 78
+  },
+  "budget 32 holds alternating": {
+    "beats_passenger_first": 50,
+    "reaches_certified_optimum": 47,
+    "mean_improvement_share": 0.527656478530759,
+    "mean_normalized_reward": 0.720431545097475,
+    "cases_with_headroom": 78
+  },
+  "budget 4 holds in last quarter": {
+    "beats_passenger_first": 13,
+    "reaches_certified_optimum": 27,
+    "mean_improvement_share": 0.11564227929155052,
+    "mean_normalized_reward": 0.46246285506941126,
+    "cases_with_headroom": 78
+  },
+  "budget 32 holds in last quarter": {
+    "beats_passenger_first": 63,
+    "reaches_certified_optimum": 52,
+    "mean_improvement_share": 0.6441768629109934,
+    "mean_normalized_reward": 0.8093942648374294,
+    "cases_with_headroom": 78
+  },
+  "suite": "benchmarks/heldout_v1 (100 cases), normalized_reward with 5% floor, invalid=-1, valid floor -0.9"
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": "small",
+    "context_window_tokens": 32768,
+    "max_output_tokens": 4096,
+    "command": [
+      "python", "-m", "railway_env.openai_worker",
+      "--base-url", "https://api.fireworks.ai/inference/v1",
+      "--model", "REPLACE_WITH_SMALL_FIREWORKS_MODEL_ID"
+    ]
+  },
+  {
+    "id": "large",
+    "context_window_tokens": 131072,
+    "max_output_tokens": 4096,
+    "command": [
+      "python", "-m", "railway_env.openai_worker",
+      "--base-url", "https://api.fireworks.ai/inference/v1",
+      "--model", "REPLACE_WITH_LARGE_FIREWORKS_MODEL_ID"
+    ]
+  }
+]

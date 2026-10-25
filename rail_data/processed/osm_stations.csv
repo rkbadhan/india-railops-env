@@ -1,0 +1,74 @@
+station_code,sections,in_osm,osm_name,osm_railway,tracks_across,tracks_across_by_service,osm_running_plus_siding,siding_m_within_1km,yard_m_within_1km,spur_m_within_1km,running_lines_loops_csv,loops_loops_csv,verdict
+'B' CABIN,TIG-SPRD,False,,,,,,,,,,,missing from OSM
+AMB,TIG-SPRD,True,Ambadala,station,3,running:3,3,0,0,0,9,6,OSM has main line(s) only (3 of 9 lines)
+ANMD,TIG-LAE,True,Arang Mahanadi,station,5,running:2 siding:2 yard:1,4,2036,791,0,4,2,OSM has all running lines
+ARN,TIG-LAE,True,Arand,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+ATS,JSG-TIG,True,Attabira,station,4,running:2 siding:2,4,1819,216,0,4,2,OSM has all running lines
+BAMR,SBP-KPJG,True,Bamur,station,1,running:1,1,0,0,0,6,4,"OSM has fewer tracks than main lines (1 of 6 lines, 2 main)"
+BGBR,TIG-LAE,True,Bagbahra,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+BHPI,BLGR-BHPI,True,Bichhupali,station,3,running:1 siding:2,3,1862,724,0,3,2,OSM has all running lines
+BLGR,BLGR-BHPI; JSG-TIG,True,Balangir Junction,station,3,running:3,3,0,0,0,5,3,OSM has some loops (3 of 5 lines)
+BLSN,TIG-LAE,True,Belsonda,station,5,running:2 siding:2 spur:1,4,1977,349,832,5,2,OSM has some loops (4 of 5 lines)
+BMCK,TIG-SPRD,True,Bissamcuttack,station,2,running:2,2,0,0,0,6,4,OSM has main line(s) only (2 of 6 lines)
+BMKJ,TIG-LAE,True,Bhimkhoj,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+BNRD,JSG-TIG,True,Balangir Road,station,1,running:1,1,0,0,0,,,OSM shows 1 running/siding tracks; no line count from SWR/diagram
+BONA,SBP-KPJG,True,Boinda,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+BPSL CABIN,JSG-TIG,False,,,,,,,,,,,missing from OSM
+BRGA,JSG-TIG,True,Bargarh Road,station,4,running:1 siding:3,4,3040,606,202,6,4,OSM has some loops (4 of 6 lines)
+BRPL,JSG-TIG,True,Barpali,station,3,running:2 siding:1,3,901,384,0,5,3,OSM has some loops (3 of 5 lines)
+BUDM,JSG-TIG,True,Badmal,station,4,running:4,4,0,0,325,5,3,OSM has some loops (4 of 5 lines)
+BWIP,JNRD-LJR,True,Bhawanipatna,station,2,running:1 siding:1,2,933,388,0,2,1,OSM has all running lines
+BXQ,JSG-TIG,True,Brundamal,station,8,running:2 siding:4 yard:2,6,5139,5990,2476,8,6,OSM has some loops (6 of 8 lines)
+CHAR,SBP-KPJG,True,Charmal,station,1,running:1,1,0,0,0,5,3,"OSM has fewer tracks than main lines (1 of 5 lines, 2 main)"
+DFR,JSG-TIG,True,Deogan Road,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+DJX,JSG-TIG,True,Dungripali,station,5,running:2 siding:2 spur:1,4,1965,613,872,5,3,OSM has some loops (4 of 5 lines)
+DKLU,TIG-SPRD,True,Doikallu,station,2,running:2,2,0,0,0,7,4,"OSM has fewer tracks than main lines (2 of 7 lines, 3 main)"
+DOBH,JSG-TIG,True,Deobahal,station,4,running:2 siding:2,4,2000,1225,0,4,2,OSM has all running lines
+DPUR,JNRD-LJR,True,Deypur P.H.,station,1,running:1,1,0,0,0,,,OSM shows 1 running/siding tracks; no line count from SWR/diagram
+GBQ,JSG-TIG,True,Godbhaga,station,4,running:2 siding:2,4,1888,658,0,4,2,OSM has all running lines
+GRCP,JNRD-LJR,True,Ramchandrapur P.H.,station,1,running:1,1,0,0,0,,,OSM shows 1 running/siding tracks; no line count from SWR/diagram
+HATB,SBP-KPJG,False,,,,,,,,,4,2,missing from OSM
+HKG,JSG-TIG,True,Hirakud,station,4,running:2 siding:2,4,1885,221,0,6,4,OSM has some loops (4 of 6 lines)
+HNPA,SBP-KPJG,True,Handapa,station,1,running:1,1,0,0,0,5,3,"OSM has fewer tracks than main lines (1 of 5 lines, 2 main)"
+HSK,TIG-LAE,True,Harishanker Rd,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+IB,JSG-TIG,True,Ib,station,7,running:3 siding:4,7,4746,0,0,,,OSM shows 7 running/siding tracks; no line count from SWR/diagram
+JNRD,JNRD-LJR,True,Junagarh Road,station,5,running:1 siding:2 spur:1 yard:1,3,2256,825,900,4,3,OSM has some loops (3 of 4 lines)
+JRPD,SBP-KPJG,True,Jarapada,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+JRTB,BLGR-BHPI,True,Jhartarbha railway station,station,1,running:1,1,0,0,0,3,2,OSM has main line(s) only (1 of 3 lines)
+JSG,JSG-TIG,True,Jharsuguda Junction,station,10,running:3 siding:6 yard:1,9,6249,2757,0,,,OSM shows 9 running/siding tracks; no line count from SWR/diagram
+JSGR,JSG-TIG,True,Jharsuguda Road,station,4,running:2 siding:2,4,1728,326,0,4,2,OSM has all running lines
+JUJA,SBP-KPJG,True,Jujumura,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+KBJ,TIG-LAE,True,Kantabanji,station,7,running:1 siding:3 yard:3,4,3244,5162,0,6,4,OSM has some loops (4 of 6 lines)
+KDLR,TIG-SPRD,True,Kandel Road,station,2,running:2,2,0,0,0,6,3,"OSM has fewer tracks than main lines (2 of 6 lines, 3 main)"
+KHPL,JSG-TIG,True,Khaliapali,station,2,running:2,2,0,0,0,4,2,OSM has main line(s) only (2 of 4 lines)
+KMK,TIG-LAE,True,Komakhan railway station,station,2,running:2,2,0,0,0,5,3,OSM has main line(s) only (2 of 5 lines)
+KPJG,SBP-KPJG,True,Kerejanga,station,5,running:5,5,599,0,0,,,OSM shows 5 running/siding tracks; no line count from SWR/diagram
+KRAR,TIG-LAE,True,Khariar Road,station,5,running:1 siding:3 yard:1,4,2884,755,0,4,2,OSM has all running lines
+KSNG,TIG-SPRD,True,Kesinga,station,2,running:2,2,0,0,0,5,2,"OSM has fewer tracks than main lines (2 of 5 lines, 3 main)"
+KTRK,JNRD-LJR,True,Kutrukhamar PH,halt,1,running:1,1,0,0,0,,,OSM shows 1 running/siding tracks; no line count from SWR/diagram
+LAE,TIG-LAE,True,Lakholi,station,4,running:3 yard:1,3,0,272,1095,,,OSM shows 3 running/siding tracks; no line count from SWR/diagram
+LJR,JNRD-LJR; TIG-SPRD,True,Lanjigarh Road Jn,station,5,running:2 siding:3,5,2137,621,0,0,0,OSM shows 5 running/siding tracks; no line count from SWR/diagram
+LKNA,TIG-LAE,True,Lakhna,station,4,running:2 siding:2,4,1808,514,0,4,2,OSM has all running lines
+LPG,JSG-TIG,True,Lapanga,station,8,running:2 siding:6,8,10285,6053,2177,8,6,OSM has all running lines
+LSX,JSG-TIG,True,Loisingha,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+MANE,SBP-KPJG,True,Maneswar,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+MNGD,TIG-SPRD,True,Muniguda,station,2,running:2,2,0,0,0,0,0,OSM shows 2 running/siding tracks; no line count from SWR/diagram
+MRBL,TIG-LAE,True,Muribahal,station,4,running:2 siding:2,4,1961,638,0,4,2,OSM has all running lines
+MSMD,TIG-LAE,True,Mahasamund,station,3,running:3,3,369,0,0,4,2,OSM has some loops (3 of 4 lines)
+NPD,TIG-LAE,True,Nawapara Road,station,5,running:2 siding:2 yard:1,4,1702,350,0,4,2,OSM has all running lines
+NRLR,TIG-SPRD,True,Norla Road,station,2,running:2,2,0,0,0,6,3,"OSM has fewer tracks than main lines (2 of 6 lines, 3 main)"
+RAIR,SBP-KPJG,True,Rairakhol,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+RGL,JSG-TIG,True,Rengali,station,5,running:2 siding:3,5,3129,739,310,5,3,OSM has all running lines
+RNBT,TIG-LAE,True,Rahenbata,station,5,running:2 siding:3,5,2973,919,0,5,3,OSM has all running lines
+RPRD,TIG-SPRD,True,Rupra Road,station,3,running:2 siding:1,3,897,0,0,6,3,OSM has main line(s) only (3 of 6 lines)
+SBP,JSG-TIG; SBP-KPJG,True,Sambalpur Junction,station,15,running:5 siding:5 yard:5,10,3848,3277,0,7,7,OSM has all running lines
+SBPY,SBP-KPJG,True,Sambalpur City,station,5,running:5,5,0,0,0,6,4,OSM has some loops (5 of 6 lines)
+SFC,JSG-TIG,True,Saintala,station,2,running:2,2,0,0,0,4,2,OSM has main line(s) only (2 of 4 lines)
+SFK,JSG-TIG,False,,,,,,,,,6,4,missing from OSM
+SLRA,JSG-TIG,True,Sarla Junction,station,4,running:2 siding:2,4,1828,386,0,10,5,OSM has some loops (4 of 10 lines)
+SPRD,TIG-SPRD,True,Singapur Road Junction,station,4,running:3 siding:1,4,1750,0,1166,,,OSM shows 4 running/siding tracks; no line count from SWR/diagram
+SRGP,SBP-KPJG,True,Saragipali,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"
+SSN,JSG-TIG,True,Sason,station,5,running:2 siding:2 yard:1,4,1829,621,0,4,2,OSM has all running lines
+THV,TIG-SPRD,True,Therubali,station,6,running:4 siding:1 yard:1,5,1303,464,0,4,2,OSM has all running lines
+TIG,JSG-TIG; TIG-LAE; TIG-SPRD,True,Titlagarh Junction,station,10,running:4 siding:3 yard:3,7,3405,2216,0,8,6,OSM has some loops (7 of 8 lines)
+TRKR,TIG-LAE,True,Turekala Road,station,1,running:1,1,0,0,0,4,2,"OSM has fewer tracks than main lines (1 of 4 lines, 2 main)"

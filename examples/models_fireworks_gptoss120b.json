@@ -1,0 +1,20 @@
+[
+  {
+    "id": "accounts/fireworks/models/gpt-oss-120b",
+    "context_window_tokens": 32768,
+    "price_per_million": {"input": 0.15, "output": 0.60},
+    "command": [
+      "python",
+      "-m",
+      "railway_env.openai_worker",
+      "--base-url",
+      "https://api.fireworks.ai/inference/v1",
+      "--model",
+      "accounts/fireworks/models/gpt-oss-120b",
+      "--timeout",
+      "300",
+      "--reasoning-effort",
+      "low"
+    ]
+  }
+]

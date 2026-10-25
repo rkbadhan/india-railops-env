@@ -1,0 +1,476 @@
+{
+  "schema_version": 1,
+  "id": "seed-7-JSGR-SSN",
+  "seed": 7,
+  "corridor": {
+    "section": "JSG-TIG",
+    "stations": [
+      {
+        "code": "JSGR",
+        "name": "Jharsuguda Road",
+        "tracks": [
+          {
+            "id": "main:3",
+            "length_m": 738,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 715,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:4",
+            "length_m": 715,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "BXQ",
+        "name": "Brundamal",
+        "tracks": [
+          {
+            "id": "main:3",
+            "length_m": 952,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 707,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:2",
+            "length_m": 729,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:4",
+            "length_m": 948,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:6",
+            "length_m": 848,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:7",
+            "length_m": 729,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:8",
+            "length_m": 705,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "LPG",
+        "name": "Lapanga",
+        "tracks": [
+          {
+            "id": "main:5",
+            "length_m": 715,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 705,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:2",
+            "length_m": 711,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:3",
+            "length_m": 736,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:6",
+            "length_m": 731,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:7",
+            "length_m": 731,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:8",
+            "length_m": 701,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "RGL",
+        "name": "Rengali",
+        "tracks": [
+          {
+            "id": "main:3",
+            "length_m": 917,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 766,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:4",
+            "length_m": 757,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:5",
+            "length_m": 730,
+            "kind": "loop"
+          }
+        ]
+      },
+      {
+        "code": "SSN",
+        "name": "Sason",
+        "tracks": [
+          {
+            "id": "main:3",
+            "length_m": 763,
+            "kind": "main"
+          },
+          {
+            "id": "loop:1",
+            "length_m": 738,
+            "kind": "loop"
+          },
+          {
+            "id": "loop:4",
+            "length_m": 719,
+            "kind": "loop"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "a": "JSGR",
+        "b": "BXQ",
+        "up_minutes": 3,
+        "down_minutes": 3,
+        "distance_km": 4.4
+      },
+      {
+        "a": "BXQ",
+        "b": "LPG",
+        "up_minutes": 8,
+        "down_minutes": 7,
+        "distance_km": 8.8
+      },
+      {
+        "a": "LPG",
+        "b": "RGL",
+        "up_minutes": 7,
+        "down_minutes": 6,
+        "distance_km": 11.0
+      },
+      {
+        "a": "RGL",
+        "b": "SSN",
+        "up_minutes": 5,
+        "down_minutes": 5,
+        "distance_km": 8.6
+      }
+    ],
+    "source_line_type": "double",
+    "operating_mode": "one shared block in both directions"
+  },
+  "trains": [
+    {
+      "id": "P18108-DN",
+      "kind": "passenger",
+      "route": [
+        "SSN",
+        "RGL",
+        "LPG",
+        "BXQ",
+        "JSGR"
+      ],
+      "length_m": 420,
+      "weight": 10,
+      "release": 17,
+      "scheduled_arrivals": [
+        0,
+        21,
+        38,
+        53,
+        68
+      ],
+      "scheduled_departures": [
+        0,
+        21,
+        38,
+        53,
+        68
+      ],
+      "running_times": [
+        21,
+        17,
+        15,
+        15
+      ],
+      "dwell_times": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_train_no": "18108"
+    },
+    {
+      "id": "F1",
+      "kind": "freight",
+      "route": [
+        "SSN",
+        "RGL",
+        "LPG",
+        "BXQ",
+        "JSGR"
+      ],
+      "length_m": 550,
+      "weight": 1,
+      "release": 53,
+      "scheduled_arrivals": [
+        53,
+        61,
+        70,
+        80,
+        85
+      ],
+      "scheduled_departures": [
+        54,
+        62,
+        71,
+        81,
+        85
+      ],
+      "running_times": [
+        7,
+        8,
+        9,
+        4
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "P18452-DN",
+      "kind": "passenger",
+      "route": [
+        "SSN",
+        "RGL",
+        "LPG",
+        "BXQ",
+        "JSGR"
+      ],
+      "length_m": 600,
+      "weight": 10,
+      "release": 67,
+      "scheduled_arrivals": [
+        67,
+        74,
+        85,
+        92,
+        98
+      ],
+      "scheduled_departures": [
+        67,
+        76,
+        85,
+        92,
+        98
+      ],
+      "running_times": [
+        7,
+        9,
+        7,
+        6
+      ],
+      "dwell_times": [
+        0,
+        2,
+        0,
+        0,
+        0
+      ],
+      "source_train_no": "18452"
+    },
+    {
+      "id": "F2",
+      "kind": "freight",
+      "route": [
+        "JSGR",
+        "BXQ",
+        "LPG",
+        "RGL",
+        "SSN"
+      ],
+      "length_m": 650,
+      "weight": 1,
+      "release": 73,
+      "scheduled_arrivals": [
+        73,
+        78,
+        89,
+        99,
+        107
+      ],
+      "scheduled_departures": [
+        74,
+        79,
+        90,
+        100,
+        107
+      ],
+      "running_times": [
+        4,
+        10,
+        9,
+        7
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        1,
+        0
+      ],
+      "source_train_no": ""
+    },
+    {
+      "id": "P18118-DN",
+      "kind": "passenger",
+      "route": [
+        "SSN",
+        "RGL",
+        "LPG",
+        "BXQ",
+        "JSGR"
+      ],
+      "length_m": 420,
+      "weight": 10,
+      "release": 79,
+      "scheduled_arrivals": [
+        79,
+        90,
+        97,
+        104,
+        133
+      ],
+      "scheduled_departures": [
+        79,
+        90,
+        97,
+        104,
+        133
+      ],
+      "running_times": [
+        11,
+        7,
+        7,
+        29
+      ],
+      "dwell_times": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "source_train_no": "18118"
+    },
+    {
+      "id": "P68033-UP",
+      "kind": "passenger",
+      "route": [
+        "JSGR",
+        "BXQ",
+        "LPG",
+        "RGL",
+        "SSN"
+      ],
+      "length_m": 420,
+      "weight": 10,
+      "release": 80,
+      "scheduled_arrivals": [
+        80,
+        86,
+        97,
+        107,
+        116
+      ],
+      "scheduled_departures": [
+        81,
+        87,
+        98,
+        109,
+        116
+      ],
+      "running_times": [
+        5,
+        10,
+        9,
+        7
+      ],
+      "dwell_times": [
+        1,
+        1,
+        1,
+        2,
+        0
+      ],
+      "source_train_no": "68033"
+    }
+  ],
+  "disruption": {
+    "kind": "late_train",
+    "train_id": "P18108-DN",
+    "delay": 17,
+    "block": [],
+    "start": 0,
+    "end": 0
+  },
+  "window_start": 202,
+  "duration": 120,
+  "clearance": 1,
+  "metadata": {
+    "passenger_source": "Sambalpur WTT 2023 / passenger_paths.csv",
+    "infrastructure_sources": [
+      "stations.csv",
+      "block_sections.csv",
+      "loops.csv"
+    ],
+    "service_filter": "daily, non-suspended, complete through-train timings only",
+    "initial_state": "no passenger already in motion; entry queues are outside the board",
+    "synthetic": [
+      "freight trains",
+      "all train lengths",
+      "priority weights",
+      "disruption"
+    ],
+    "model": "one shared block per station pair; one measured main and measured loops per station",
+    "main_selection": "longest conventional UP/DN main; third-line tracks excluded",
+    "scoring": "weighted final-arrival delay; all trains drain after the 120-minute entry window"
+  }
+}

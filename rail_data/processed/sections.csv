@@ -1,0 +1,9 @@
+section,length_km,length_km_isrt,line_type,block_system,electrified,signalling,page
+SBP-KPJG,142.7,142.8,double,Absolute Block; Double Line Lock & Block Instrument with LVCD,yes,Multi Aspect Colour Light Signalling,21
+JSG-TIG,230.5,230.5,double,Absolute Block; Double Line Lock & Block Instrument with LVCD,yes,Multi Aspect Colour Light Signalling,39
+IB-JSGR,8.7,8.7,single,Absolute Block; Tokenless Block Instrument with LVCD,yes,Multi Aspect Colour Light Signalling,39
+SLRA-SBPY,3.7,3.7,single,Absolute Block; Tokenless Block Instrument with LVCD,yes,Multi Aspect Colour Light Signalling,39
+BLGR-BHPI,15.5,15.6,single,Absolute Block; Tokenless Block Instrument with LVCD,yes,Multi Aspect Colour Light Signalling,39
+TIG-SPRD,130.3,129.4,"triple TIG-LJR, double LJR-SPRD",Absolute Block; Double Line Lock & Block Instrument with LVCD; TIG-LJR 3rd line UFSBI without TLBI,yes,Multi Aspect Colour Light Signalling,65
+JNRD-LJR,55.4,55.6,single,"Absolute Block with LVCD; UFSBI without TLBI LJR-BWIP, UFSBI with TLBI BWIP-JNRD",yes,Multi Aspect Colour Light Signalling,65
+TIG-LAE,174.1,174.1,double,Absolute Block; Double Line Lock & Block Instrument with LVCD,yes,Multi Aspect Colour Light Signalling,83

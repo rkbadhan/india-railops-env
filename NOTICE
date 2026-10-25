@@ -1,0 +1,29 @@
+IndiaRailOpsEnv
+Copyright 2026 the IndiaRailOpsEnv contributors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Not affiliated with Indian Railways. It is built from public Indian Railways
+documents and carries no Indian Railways name or logo.
+
+Third-party data and attribution
+--------------------------------
+
+OpenStreetMap. rail_data/processed/osm_stations.csv is derived from an
+OpenStreetMap extract (Overpass API). (c) OpenStreetMap contributors, available
+under the Open Database Licence (ODbL) 1.0: https://www.openstreetmap.org/copyright
+That table is a derived database; if you redistribute it, keep this attribution
+and share it under the ODbL. The Apache-2.0 licence of this repository does not
+apply to it. The raw extract is not redistributed.
+
+DataMeet railways collection. fetch_rail_data.py can download DataMeet's station,
+train and schedule JSON files (labelled CC0 by DataMeet, https://github.com/datameet/railways).
+No DataMeet data is used to build the processed tables and none is redistributed
+here, so no attribution is required; it is credited because the script fetches it.
+
+Indian Railways documents. Working time tables, station working rules and
+diagrams, and the High Density Network report are published by Indian Railways
+zones and the Railway Board. They are not redistributed here. The processed
+tables hold facts extracted from them (running times, loop lengths, train
+timings). See SOURCES.md for every document and its URL. The publishers' own
+terms apply to the original documents.

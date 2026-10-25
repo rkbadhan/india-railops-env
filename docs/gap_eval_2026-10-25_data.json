@@ -1,0 +1,1304 @@
+{
+  "models": {
+    "GLM-5.3 Flash": {
+      "runs": {
+        "1": {
+          "all seeds": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 1,
+              "episodes": 300,
+              "eligible_episodes": 300,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0033333333333332993,
+              "no_answer_rate_ci": {
+                "mean": 0.003333333333333333,
+                "low": 0.0,
+                "high": 0.01,
+                "seeds": 100
+              },
+              "mean_reward_no_answer_is_minus_one": 0.30338091217596497,
+              "mean_reward_ci": {
+                "mean": 0.303380912175965,
+                "low": 0.21791843541634748,
+                "high": 0.3898441129659313,
+                "seeds": 100
+              },
+              "mean_reward_submitted_only": 0.3077400456615033,
+              "at_optimum_rate": 0.21,
+              "at_optimum_rate_ci": {
+                "mean": 0.21,
+                "low": 0.13666666666666666,
+                "high": 0.29,
+                "seeds": 100
+              },
+              "versus_scripted_search": {
+                "win": 14,
+                "tie": 252,
+                "loss": 34,
+                "win_rate": 0.04666666666666667,
+                "tie_rate": 0.84,
+                "loss_rate": 0.11333333333333333
+              },
+              "mean_input_tokens": 3832.3733333333334,
+              "mean_output_tokens": 231.93666666666667,
+              "token_reporting_episodes": 300,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.2072473,
+              "estimated_cost_usd_per_episode": 0.0006908243333333333
+            },
+            "scripted_reward": {
+              "mean": 0.38609836967691535,
+              "low": 0.3048736358728476,
+              "high": 0.46863333004612184,
+              "seeds": 100
+            }
+          },
+          "seeds 100-119": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 1,
+              "episodes": 60,
+              "eligible_episodes": 60,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.01666666666666672,
+              "no_answer_rate_ci": {
+                "mean": 0.016666666666666666,
+                "low": 0.0,
+                "high": 0.05,
+                "seeds": 20
+              },
+              "mean_reward_no_answer_is_minus_one": 0.3823441587339189,
+              "mean_reward_ci": {
+                "mean": 0.3823441587339189,
+                "low": 0.149358805445762,
+                "high": 0.6009364081062194,
+                "seeds": 20
+              },
+              "mean_reward_submitted_only": 0.4057737207463582,
+              "at_optimum_rate": 0.26666666666666666,
+              "at_optimum_rate_ci": {
+                "mean": 0.26666666666666666,
+                "low": 0.1,
+                "high": 0.4666666666666667,
+                "seeds": 20
+              },
+              "versus_scripted_search": {
+                "win": 1,
+                "tie": 52,
+                "loss": 7,
+                "win_rate": 0.016666666666666666,
+                "tie_rate": 0.8666666666666667,
+                "loss_rate": 0.11666666666666667
+              },
+              "mean_input_tokens": 3886.45,
+              "mean_output_tokens": 277.8666666666667,
+              "token_reporting_episodes": 60,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.04331405,
+              "estimated_cost_usd_per_episode": 0.0007219008333333334
+            },
+            "scripted_reward": {
+              "mean": 0.5085770627970116,
+              "low": 0.3197498797498798,
+              "high": 0.6976792649426921,
+              "seeds": 20
+            }
+          },
+          "seeds 110-199 (excluding 100-109)": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 1,
+              "episodes": 270,
+              "eligible_episodes": 270,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0037037037037036535,
+              "no_answer_rate_ci": {
+                "mean": 0.0037037037037037034,
+                "low": 0.0,
+                "high": 0.011111111111111112,
+                "seeds": 90
+              },
+              "mean_reward_no_answer_is_minus_one": 0.278039047763931,
+              "mean_reward_ci": {
+                "mean": 0.278039047763931,
+                "low": 0.1881738406525659,
+                "high": 0.3683802018189756,
+                "seeds": 90
+              },
+              "mean_reward_submitted_only": 0.2827901222909345,
+              "at_optimum_rate": 0.1962962962962963,
+              "at_optimum_rate_ci": {
+                "mean": 0.1962962962962963,
+                "low": 0.12222222222222222,
+                "high": 0.2777777777777778,
+                "seeds": 90
+              },
+              "versus_scripted_search": {
+                "win": 13,
+                "tie": 226,
+                "loss": 31,
+                "win_rate": 0.04814814814814815,
+                "tie_rate": 0.837037037037037,
+                "loss_rate": 0.11481481481481481
+              },
+              "mean_input_tokens": 3810.6555555555556,
+              "mean_output_tokens": 224.77777777777777,
+              "token_reporting_episodes": 270,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.18467655,
+              "estimated_cost_usd_per_episode": 0.0006839872222222222
+            },
+            "scripted_reward": {
+              "mean": 0.35877388429593987,
+              "low": 0.27301826754842146,
+              "high": 0.4440542259588911,
+              "seeds": 90
+            }
+          }
+        },
+        "4": {
+          "all seeds": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 4,
+              "episodes": 300,
+              "eligible_episodes": 300,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 100
+              },
+              "mean_reward_no_answer_is_minus_one": 0.42414938436199395,
+              "mean_reward_ci": {
+                "mean": 0.42414938436199395,
+                "low": 0.3480144817980023,
+                "high": 0.4993445852597155,
+                "seeds": 100
+              },
+              "mean_reward_submitted_only": 0.42414938436199395,
+              "at_optimum_rate": 0.2866666666666667,
+              "at_optimum_rate_ci": {
+                "mean": 0.2866666666666667,
+                "low": 0.21,
+                "high": 0.36666666666666664,
+                "seeds": 100
+              },
+              "versus_scripted_search": {
+                "win": 69,
+                "tie": 177,
+                "loss": 54,
+                "win_rate": 0.23,
+                "tie_rate": 0.59,
+                "loss_rate": 0.18
+              },
+              "mean_input_tokens": 18209.443333333333,
+              "mean_output_tokens": 1361.9233333333334,
+              "token_reporting_episodes": 300,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 1.02371345,
+              "estimated_cost_usd_per_episode": 0.0034123781666666668
+            },
+            "scripted_reward": {
+              "mean": 0.4903293090314739,
+              "low": 0.4079466236736782,
+              "high": 0.5735795284515288,
+              "seeds": 100
+            }
+          },
+          "seeds 100-119": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 4,
+              "episodes": 60,
+              "eligible_episodes": 60,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 20
+              },
+              "mean_reward_no_answer_is_minus_one": 0.4789520224002876,
+              "mean_reward_ci": {
+                "mean": 0.4789520224002876,
+                "low": 0.30355784107082495,
+                "high": 0.6489641133988806,
+                "seeds": 20
+              },
+              "mean_reward_submitted_only": 0.4789520224002876,
+              "at_optimum_rate": 0.35,
+              "at_optimum_rate_ci": {
+                "mean": 0.35,
+                "low": 0.18333333333333332,
+                "high": 0.5333333333333333,
+                "seeds": 20
+              },
+              "versus_scripted_search": {
+                "win": 7,
+                "tie": 42,
+                "loss": 11,
+                "win_rate": 0.11666666666666667,
+                "tie_rate": 0.7,
+                "loss_rate": 0.18333333333333332
+              },
+              "mean_input_tokens": 17275.533333333333,
+              "mean_output_tokens": 1426.7333333333333,
+              "token_reporting_episodes": 60,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.1982818,
+              "estimated_cost_usd_per_episode": 0.003304696666666667
+            },
+            "scripted_reward": {
+              "mean": 0.5831053646838041,
+              "low": 0.3973661801210901,
+              "high": 0.7576585654190249,
+              "seeds": 20
+            }
+          },
+          "seeds 110-199 (excluding 100-109)": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 4,
+              "episodes": 270,
+              "eligible_episodes": 270,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 90
+              },
+              "mean_reward_no_answer_is_minus_one": 0.4160379982453284,
+              "mean_reward_ci": {
+                "mean": 0.4160379982453284,
+                "low": 0.33844585721068254,
+                "high": 0.4929502554800099,
+                "seeds": 90
+              },
+              "mean_reward_submitted_only": 0.4160379982453284,
+              "at_optimum_rate": 0.2777777777777778,
+              "at_optimum_rate_ci": {
+                "mean": 0.2777777777777778,
+                "low": 0.2,
+                "high": 0.3592592592592593,
+                "seeds": 90
+              },
+              "versus_scripted_search": {
+                "win": 65,
+                "tie": 158,
+                "loss": 47,
+                "win_rate": 0.24074074074074073,
+                "tie_rate": 0.5851851851851851,
+                "loss_rate": 0.17407407407407408
+              },
+              "mean_input_tokens": 18337.38888888889,
+              "mean_output_tokens": 1337.1814814814816,
+              "token_reporting_episodes": 270,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.92318375,
+              "estimated_cost_usd_per_episode": 0.003419199074074074
+            },
+            "scripted_reward": {
+              "mean": 0.4691353053817177,
+              "low": 0.38080308434840177,
+              "high": 0.5560261553627346,
+              "seeds": 90
+            }
+          }
+        },
+        "32": {
+          "all seeds": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 32,
+              "episodes": 40,
+              "eligible_episodes": 40,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 20
+              },
+              "mean_reward_no_answer_is_minus_one": 0.5878241942836513,
+              "mean_reward_ci": {
+                "mean": 0.5878241942836513,
+                "low": 0.3697762706924067,
+                "high": 0.7808216856546198,
+                "seeds": 20
+              },
+              "mean_reward_submitted_only": 0.5878241942836513,
+              "at_optimum_rate": 0.525,
+              "at_optimum_rate_ci": {
+                "mean": 0.525,
+                "low": 0.375,
+                "high": 0.675,
+                "seeds": 20
+              },
+              "versus_scripted_search": {
+                "win": 4,
+                "tie": 23,
+                "loss": 13,
+                "win_rate": 0.1,
+                "tie_rate": 0.575,
+                "loss_rate": 0.325
+              },
+              "mean_input_tokens": 226209.95,
+              "mean_output_tokens": 9351.275,
+              "token_reporting_episodes": 40,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 1.5442852,
+              "estimated_cost_usd_per_episode": 0.03860713
+            },
+            "scripted_reward": {
+              "mean": 0.8956216245099027,
+              "low": 0.7785928543974083,
+              "high": 0.9775238423815275,
+              "seeds": 20
+            }
+          },
+          "seeds 100-119": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 32,
+              "episodes": 40,
+              "eligible_episodes": 40,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 20
+              },
+              "mean_reward_no_answer_is_minus_one": 0.5878241942836513,
+              "mean_reward_ci": {
+                "mean": 0.5878241942836513,
+                "low": 0.3697762706924067,
+                "high": 0.7808216856546198,
+                "seeds": 20
+              },
+              "mean_reward_submitted_only": 0.5878241942836513,
+              "at_optimum_rate": 0.525,
+              "at_optimum_rate_ci": {
+                "mean": 0.525,
+                "low": 0.375,
+                "high": 0.675,
+                "seeds": 20
+              },
+              "versus_scripted_search": {
+                "win": 4,
+                "tie": 23,
+                "loss": 13,
+                "win_rate": 0.1,
+                "tie_rate": 0.575,
+                "loss_rate": 0.325
+              },
+              "mean_input_tokens": 226209.95,
+              "mean_output_tokens": 9351.275,
+              "token_reporting_episodes": 40,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 1.5442852,
+              "estimated_cost_usd_per_episode": 0.03860713
+            },
+            "scripted_reward": {
+              "mean": 0.8956216245099027,
+              "low": 0.7785928543974083,
+              "high": 0.9775238423815275,
+              "seeds": 20
+            }
+          },
+          "seeds 110-199 (excluding 100-109)": {
+            "model": {
+              "model": "accounts/fireworks/models/glm-5p3-flash",
+              "trial_budget": 32,
+              "episodes": 20,
+              "eligible_episodes": 20,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 10
+              },
+              "mean_reward_no_answer_is_minus_one": 0.49853303569896895,
+              "mean_reward_ci": {
+                "mean": 0.498533035698969,
+                "low": 0.13893790849673202,
+                "high": 0.8147993755682501,
+                "seeds": 10
+              },
+              "mean_reward_submitted_only": 0.49853303569896895,
+              "at_optimum_rate": 0.5,
+              "at_optimum_rate_ci": {
+                "mean": 0.5,
+                "low": 0.25,
+                "high": 0.75,
+                "seeds": 10
+              },
+              "versus_scripted_search": {
+                "win": 2,
+                "tie": 10,
+                "loss": 8,
+                "win_rate": 0.1,
+                "tie_rate": 0.5,
+                "loss_rate": 0.4
+              },
+              "mean_input_tokens": 237856.2,
+              "mean_output_tokens": 8683.75,
+              "token_reporting_episodes": 20,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.8004061,
+              "estimated_cost_usd_per_episode": 0.040020305
+            },
+            "scripted_reward": {
+              "mean": 0.8351028583476401,
+              "low": 0.6081699346405228,
+              "high": 0.9847248576850095,
+              "seeds": 10
+            }
+          }
+        }
+      },
+      "labels": {
+        "1": {
+          "eligible": 300,
+          "counts": {
+            "no_answer": 1,
+            "invalid_submission": 1,
+            "broke_a_good_plan": 13,
+            "repeated_proposals": 0,
+            "never_used_holds": 283,
+            "never_compared_to_default": 254
+          }
+        },
+        "4": {
+          "eligible": 300,
+          "counts": {
+            "no_answer": 0,
+            "invalid_submission": 0,
+            "broke_a_good_plan": 23,
+            "repeated_proposals": 4,
+            "never_used_holds": 226,
+            "never_compared_to_default": 86
+          }
+        },
+        "32": {
+          "eligible": 40,
+          "counts": {
+            "no_answer": 0,
+            "invalid_submission": 0,
+            "broke_a_good_plan": 5,
+            "repeated_proposals": 33,
+            "never_used_holds": 1,
+            "never_compared_to_default": 6
+          }
+        },
+        "best_of_8": {
+          "eligible": 400,
+          "counts": {
+            "no_answer": 1,
+            "invalid_submission": 1,
+            "broke_a_good_plan": 32,
+            "repeated_proposals": 0,
+            "never_used_holds": 370,
+            "never_compared_to_default": 332
+          }
+        }
+      },
+      "spend": {
+        "1": 0.2072473,
+        "4": 1.02371345,
+        "32": 1.5442852,
+        "best_of_8": 0.272907,
+        "total_estimated_usd": 3.04815295
+      },
+      "paired_difference": {
+        "1": {
+          "mean": -0.08271745750095036,
+          "low": -0.12666146009300414,
+          "high": -0.042127555270698294,
+          "seeds": 100
+        },
+        "4": {
+          "mean": -0.06617992466947994,
+          "low": -0.14521345262405438,
+          "high": 0.00933266994267697,
+          "seeds": 100
+        },
+        "32": {
+          "mean": -0.3077974302262514,
+          "low": -0.5071356828628406,
+          "high": -0.13215413110235158,
+          "seeds": 20
+        }
+      },
+      "default_outcomes": {
+        "1": {
+          "low_headroom": {
+            "episodes": 162,
+            "better": 3,
+            "same": 146,
+            "worse": 13,
+            "no_answer": 0,
+            "mean_reward": 0.6140933394148689
+          },
+          "headroom": {
+            "episodes": 138,
+            "better": 11,
+            "same": 106,
+            "worse": 20,
+            "no_answer": 1,
+            "mean_reward": -0.061368458930574285
+          }
+        },
+        "4": {
+          "low_headroom": {
+            "episodes": 162,
+            "better": 19,
+            "same": 120,
+            "worse": 23,
+            "no_answer": 0,
+            "mean_reward": 0.5606289641053439
+          },
+          "headroom": {
+            "episodes": 138,
+            "better": 69,
+            "same": 58,
+            "worse": 11,
+            "no_answer": 0,
+            "mean_reward": 0.26393422553284407
+          }
+        },
+        "32": {
+          "low_headroom": {
+            "episodes": 26,
+            "better": 7,
+            "same": 14,
+            "worse": 5,
+            "no_answer": 0,
+            "mean_reward": 0.6612985054161525
+          },
+          "headroom": {
+            "episodes": 14,
+            "better": 10,
+            "same": 2,
+            "worse": 2,
+            "no_answer": 0,
+            "mean_reward": 0.45137190218043477
+          }
+        },
+        "best_of_8": {
+          "low_headroom": {
+            "episodes": 248,
+            "better": 5,
+            "same": 211,
+            "worse": 32,
+            "no_answer": 0,
+            "mean_reward": 0.5938450507097868
+          },
+          "headroom": {
+            "episodes": 152,
+            "better": 16,
+            "same": 116,
+            "worse": 19,
+            "no_answer": 1,
+            "mean_reward": -0.04609546547170694
+          }
+        }
+      },
+      "best_of_8": {
+        "seeds": 50,
+        "samples_per_seed": [
+          8
+        ],
+        "best_of_n_reward": {
+          "mean": 0.5524720941841911,
+          "low": 0.4346256364261238,
+          "high": 0.6625489419056229,
+          "seeds": 50
+        },
+        "mean_of_n_reward": {
+          "mean": 0.35066765456081916,
+          "low": 0.2319833867779468,
+          "high": 0.46565669756951666,
+          "seeds": 50
+        },
+        "seeds_with_headroom": 36,
+        "headroom_best_of_n_reward": {
+          "mean": 0.37843346414470974,
+          "low": 0.2587112301001726,
+          "high": 0.5025075513197786,
+          "seeds": 36
+        },
+        "headroom_mean_of_n_reward": {
+          "mean": 0.14678119022599767,
+          "low": 0.049192373966265766,
+          "high": 0.2487773602469136,
+          "seeds": 36
+        },
+        "headroom_seeds_where_some_sample_beats_default": 9,
+        "headroom_seeds_where_some_sample_is_optimal": 2,
+        "all_seeds_where_some_sample_is_optimal": 16
+      }
+    },
+    "gpt-oss-120b": {
+      "runs": {
+        "1": {
+          "all seeds": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 1,
+              "episodes": 300,
+              "eligible_episodes": 300,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.010000000000000009,
+              "no_answer_rate_ci": {
+                "mean": 0.01,
+                "low": 0.0,
+                "high": 0.02333333333333333,
+                "seeds": 100
+              },
+              "mean_reward_no_answer_is_minus_one": 0.1822441146700406,
+              "mean_reward_ci": {
+                "mean": 0.1822441146700406,
+                "low": 0.09336971524051232,
+                "high": 0.27645308859415285,
+                "seeds": 100
+              },
+              "mean_reward_submitted_only": 0.19418597441418242,
+              "at_optimum_rate": 0.18333333333333332,
+              "at_optimum_rate_ci": {
+                "mean": 0.18333333333333332,
+                "low": 0.11666666666666665,
+                "high": 0.25666666666666665,
+                "seeds": 100
+              },
+              "versus_scripted_search": {
+                "win": 6,
+                "tie": 231,
+                "loss": 63,
+                "win_rate": 0.02,
+                "tie_rate": 0.77,
+                "loss_rate": 0.21
+              },
+              "mean_input_tokens": 3752.3433333333332,
+              "mean_output_tokens": 250.25666666666666,
+              "token_reporting_episodes": 300,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.21390165,
+              "estimated_cost_usd_per_episode": 0.0007130055
+            },
+            "scripted_reward": {
+              "mean": 0.38609836967691535,
+              "low": 0.3048736358728476,
+              "high": 0.46863333004612184,
+              "seeds": 100
+            }
+          },
+          "seeds 100-119": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 1,
+              "episodes": 60,
+              "eligible_episodes": 60,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.01666666666666672,
+              "no_answer_rate_ci": {
+                "mean": 0.016666666666666666,
+                "low": 0.0,
+                "high": 0.05,
+                "seeds": 20
+              },
+              "mean_reward_no_answer_is_minus_one": 0.3333567104390956,
+              "mean_reward_ci": {
+                "mean": 0.3333567104390956,
+                "low": 0.13547735667738892,
+                "high": 0.5263947943595324,
+                "seeds": 20
+              },
+              "mean_reward_submitted_only": 0.35595597671772433,
+              "at_optimum_rate": 0.25,
+              "at_optimum_rate_ci": {
+                "mean": 0.25,
+                "low": 0.1,
+                "high": 0.4333333333333333,
+                "seeds": 20
+              },
+              "versus_scripted_search": {
+                "win": 0,
+                "tie": 52,
+                "loss": 8,
+                "win_rate": 0.0,
+                "tie_rate": 0.8666666666666667,
+                "loss_rate": 0.13333333333333333
+              },
+              "mean_input_tokens": 3550.133333333333,
+              "mean_output_tokens": 259.46666666666664,
+              "token_reporting_episodes": 60,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.041292,
+              "estimated_cost_usd_per_episode": 0.0006882
+            },
+            "scripted_reward": {
+              "mean": 0.5085770627970116,
+              "low": 0.3197498797498798,
+              "high": 0.6976792649426921,
+              "seeds": 20
+            }
+          },
+          "seeds 110-199 (excluding 100-109)": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 1,
+              "episodes": 270,
+              "eligible_episodes": 270,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.007407407407407418,
+              "no_answer_rate_ci": {
+                "mean": 0.007407407407407407,
+                "low": 0.0,
+                "high": 0.018518518518518517,
+                "seeds": 90
+              },
+              "mean_reward_no_answer_is_minus_one": 0.16041730465867163,
+              "mean_reward_ci": {
+                "mean": 0.16041730465867163,
+                "low": 0.06503769392759241,
+                "high": 0.25541483992598607,
+                "seeds": 90
+              },
+              "mean_reward_submitted_only": 0.16907713529045276,
+              "at_optimum_rate": 0.17037037037037037,
+              "at_optimum_rate_ci": {
+                "mean": 0.17037037037037037,
+                "low": 0.1,
+                "high": 0.24814814814814815,
+                "seeds": 90
+              },
+              "versus_scripted_search": {
+                "win": 6,
+                "tie": 206,
+                "loss": 58,
+                "win_rate": 0.022222222222222223,
+                "tie_rate": 0.762962962962963,
+                "loss_rate": 0.21481481481481482
+              },
+              "mean_input_tokens": 3769.685185185185,
+              "mean_output_tokens": 248.65185185185186,
+              "token_reporting_episodes": 270,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.19295384999999998,
+              "estimated_cost_usd_per_episode": 0.0007146438888888889
+            },
+            "scripted_reward": {
+              "mean": 0.35877388429593987,
+              "low": 0.27301826754842146,
+              "high": 0.4440542259588911,
+              "seeds": 90
+            }
+          }
+        },
+        "4": {
+          "all seeds": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 4,
+              "episodes": 300,
+              "eligible_episodes": 300,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 100
+              },
+              "mean_reward_no_answer_is_minus_one": 0.22686007464089808,
+              "mean_reward_ci": {
+                "mean": 0.22686007464089805,
+                "low": 0.13682855592222498,
+                "high": 0.31591663725347774,
+                "seeds": 100
+              },
+              "mean_reward_submitted_only": 0.22686007464089808,
+              "at_optimum_rate": 0.20666666666666667,
+              "at_optimum_rate_ci": {
+                "mean": 0.20666666666666667,
+                "low": 0.14,
+                "high": 0.28,
+                "seeds": 100
+              },
+              "versus_scripted_search": {
+                "win": 13,
+                "tie": 200,
+                "loss": 87,
+                "win_rate": 0.043333333333333335,
+                "tie_rate": 0.6666666666666666,
+                "loss_rate": 0.29
+              },
+              "mean_input_tokens": 16385.023333333334,
+              "mean_output_tokens": 733.73,
+              "token_reporting_episodes": 300,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.86939745,
+              "estimated_cost_usd_per_episode": 0.0028979915
+            },
+            "scripted_reward": {
+              "mean": 0.4903293090314739,
+              "low": 0.4079466236736782,
+              "high": 0.5735795284515288,
+              "seeds": 100
+            }
+          },
+          "seeds 100-119": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 4,
+              "episodes": 60,
+              "eligible_episodes": 60,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 20
+              },
+              "mean_reward_no_answer_is_minus_one": 0.24160699034904276,
+              "mean_reward_ci": {
+                "mean": 0.24160699034904276,
+                "low": 0.026318692800604525,
+                "high": 0.4595618922037123,
+                "seeds": 20
+              },
+              "mean_reward_submitted_only": 0.24160699034904276,
+              "at_optimum_rate": 0.2833333333333333,
+              "at_optimum_rate_ci": {
+                "mean": 0.2833333333333333,
+                "low": 0.11666666666666665,
+                "high": 0.4666666666666667,
+                "seeds": 20
+              },
+              "versus_scripted_search": {
+                "win": 0,
+                "tie": 44,
+                "loss": 16,
+                "win_rate": 0.0,
+                "tie_rate": 0.7333333333333333,
+                "loss_rate": 0.26666666666666666
+              },
+              "mean_input_tokens": 15684.25,
+              "mean_output_tokens": 775.05,
+              "token_reporting_episodes": 60,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.16906005,
+              "estimated_cost_usd_per_episode": 0.0028176675
+            },
+            "scripted_reward": {
+              "mean": 0.5831053646838041,
+              "low": 0.3973661801210901,
+              "high": 0.7576585654190249,
+              "seeds": 20
+            }
+          },
+          "seeds 110-199 (excluding 100-109)": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 4,
+              "episodes": 270,
+              "eligible_episodes": 270,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 90
+              },
+              "mean_reward_no_answer_is_minus_one": 0.21174128512094398,
+              "mean_reward_ci": {
+                "mean": 0.211741285120944,
+                "low": 0.11901344758361715,
+                "high": 0.3065381405121107,
+                "seeds": 90
+              },
+              "mean_reward_submitted_only": 0.21174128512094398,
+              "at_optimum_rate": 0.1962962962962963,
+              "at_optimum_rate_ci": {
+                "mean": 0.1962962962962963,
+                "low": 0.12592592592592594,
+                "high": 0.27037037037037037,
+                "seeds": 90
+              },
+              "versus_scripted_search": {
+                "win": 13,
+                "tie": 178,
+                "loss": 79,
+                "win_rate": 0.04814814814814815,
+                "tie_rate": 0.6592592592592592,
+                "loss_rate": 0.29259259259259257
+              },
+              "mean_input_tokens": 16621.237037037037,
+              "mean_output_tokens": 730.9962962962964,
+              "token_reporting_episodes": 270,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.7915814999999999,
+              "estimated_cost_usd_per_episode": 0.002931783333333333
+            },
+            "scripted_reward": {
+              "mean": 0.4691353053817177,
+              "low": 0.38080308434840177,
+              "high": 0.5560261553627346,
+              "seeds": 90
+            }
+          }
+        },
+        "32": {
+          "all seeds": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 32,
+              "episodes": 40,
+              "eligible_episodes": 40,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 20
+              },
+              "mean_reward_no_answer_is_minus_one": 0.19269320164375572,
+              "mean_reward_ci": {
+                "mean": 0.1926932016437557,
+                "low": -0.07162940075043159,
+                "high": 0.4496049663496381,
+                "seeds": 20
+              },
+              "mean_reward_submitted_only": 0.19269320164375572,
+              "at_optimum_rate": 0.275,
+              "at_optimum_rate_ci": {
+                "mean": 0.275,
+                "low": 0.125,
+                "high": 0.45,
+                "seeds": 20
+              },
+              "versus_scripted_search": {
+                "win": 2,
+                "tie": 14,
+                "loss": 24,
+                "win_rate": 0.05,
+                "tie_rate": 0.35,
+                "loss_rate": 0.6
+              },
+              "mean_input_tokens": 48820.975,
+              "mean_output_tokens": 1524.2,
+              "token_reporting_episodes": 40,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.32950665,
+              "estimated_cost_usd_per_episode": 0.008237666250000001
+            },
+            "scripted_reward": {
+              "mean": 0.8956216245099027,
+              "low": 0.7785928543974083,
+              "high": 0.9775238423815275,
+              "seeds": 20
+            }
+          },
+          "seeds 100-119": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 32,
+              "episodes": 40,
+              "eligible_episodes": 40,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 20
+              },
+              "mean_reward_no_answer_is_minus_one": 0.19269320164375572,
+              "mean_reward_ci": {
+                "mean": 0.1926932016437557,
+                "low": -0.07162940075043159,
+                "high": 0.4496049663496381,
+                "seeds": 20
+              },
+              "mean_reward_submitted_only": 0.19269320164375572,
+              "at_optimum_rate": 0.275,
+              "at_optimum_rate_ci": {
+                "mean": 0.275,
+                "low": 0.125,
+                "high": 0.45,
+                "seeds": 20
+              },
+              "versus_scripted_search": {
+                "win": 2,
+                "tie": 14,
+                "loss": 24,
+                "win_rate": 0.05,
+                "tie_rate": 0.35,
+                "loss_rate": 0.6
+              },
+              "mean_input_tokens": 48820.975,
+              "mean_output_tokens": 1524.2,
+              "token_reporting_episodes": 40,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.32950665,
+              "estimated_cost_usd_per_episode": 0.008237666250000001
+            },
+            "scripted_reward": {
+              "mean": 0.8956216245099027,
+              "low": 0.7785928543974083,
+              "high": 0.9775238423815275,
+              "seeds": 20
+            }
+          },
+          "seeds 110-199 (excluding 100-109)": {
+            "model": {
+              "model": "accounts/fireworks/models/gpt-oss-120b",
+              "trial_budget": 32,
+              "episodes": 20,
+              "eligible_episodes": 20,
+              "infrastructure_failures": 0,
+              "no_answer_rate": 0.0,
+              "no_answer_rate_ci": {
+                "mean": 0.0,
+                "low": 0.0,
+                "high": 0.0,
+                "seeds": 10
+              },
+              "mean_reward_no_answer_is_minus_one": 0.29042540593473165,
+              "mean_reward_ci": {
+                "mean": 0.2904254059347316,
+                "low": -0.012735191637630667,
+                "high": 0.5930304479515384,
+                "seeds": 10
+              },
+              "mean_reward_submitted_only": 0.29042540593473165,
+              "at_optimum_rate": 0.25,
+              "at_optimum_rate_ci": {
+                "mean": 0.25,
+                "low": 0.05,
+                "high": 0.45,
+                "seeds": 10
+              },
+              "versus_scripted_search": {
+                "win": 1,
+                "tie": 8,
+                "loss": 11,
+                "win_rate": 0.05,
+                "tie_rate": 0.4,
+                "loss_rate": 0.55
+              },
+              "mean_input_tokens": 47710.8,
+              "mean_output_tokens": 1418.85,
+              "token_reporting_episodes": 20,
+              "reported_cost_usd_total": null,
+              "estimated_cost_usd_total": 0.16015859999999998,
+              "estimated_cost_usd_per_episode": 0.00800793
+            },
+            "scripted_reward": {
+              "mean": 0.8351028583476401,
+              "low": 0.6081699346405228,
+              "high": 0.9847248576850095,
+              "seeds": 10
+            }
+          }
+        }
+      },
+      "labels": {
+        "1": {
+          "eligible": 300,
+          "counts": {
+            "no_answer": 3,
+            "invalid_submission": 3,
+            "broke_a_good_plan": 32,
+            "repeated_proposals": 0,
+            "never_used_holds": 228,
+            "never_compared_to_default": 292
+          }
+        },
+        "4": {
+          "eligible": 300,
+          "counts": {
+            "no_answer": 0,
+            "invalid_submission": 0,
+            "broke_a_good_plan": 33,
+            "repeated_proposals": 19,
+            "never_used_holds": 31,
+            "never_compared_to_default": 275
+          }
+        },
+        "32": {
+          "eligible": 40,
+          "counts": {
+            "no_answer": 0,
+            "invalid_submission": 0,
+            "broke_a_good_plan": 9,
+            "repeated_proposals": 15,
+            "never_used_holds": 2,
+            "never_compared_to_default": 37
+          }
+        },
+        "best_of_8": {
+          "eligible": 400,
+          "counts": {
+            "no_answer": 0,
+            "invalid_submission": 0,
+            "broke_a_good_plan": 43,
+            "repeated_proposals": 0,
+            "never_used_holds": 336,
+            "never_compared_to_default": 381
+          }
+        }
+      },
+      "spend": {
+        "1": 0.21390165,
+        "4": 0.86939745,
+        "32": 0.32950665,
+        "best_of_8": 0.2715951,
+        "total_estimated_usd": 1.68440085
+      },
+      "paired_difference": {
+        "1": {
+          "mean": -0.20385425500687476,
+          "low": -0.27036488429659544,
+          "high": -0.1432131838550569,
+          "seeds": 100
+        },
+        "4": {
+          "mean": -0.26346923439057585,
+          "low": -0.34134332863221056,
+          "high": -0.19166276211577565,
+          "seeds": 100
+        },
+        "32": {
+          "mean": -0.702928422866147,
+          "low": -0.9750827093170636,
+          "high": -0.43824980332811564,
+          "seeds": 20
+        }
+      },
+      "default_outcomes": {
+        "1": {
+          "low_headroom": {
+            "episodes": 162,
+            "better": 0,
+            "same": 129,
+            "worse": 32,
+            "no_answer": 1,
+            "mean_reward": 0.44000917045782867
+          },
+          "headroom": {
+            "episodes": 138,
+            "better": 6,
+            "same": 102,
+            "worse": 28,
+            "no_answer": 2,
+            "mean_reward": -0.12034964647214545
+          }
+        },
+        "4": {
+          "low_headroom": {
+            "episodes": 162,
+            "better": 7,
+            "same": 122,
+            "worse": 33,
+            "no_answer": 0,
+            "mean_reward": 0.4364274267629085
+          },
+          "headroom": {
+            "episodes": 138,
+            "better": 30,
+            "same": 78,
+            "worse": 30,
+            "no_answer": 0,
+            "mean_reward": -0.01915377350233164
+          }
+        },
+        "32": {
+          "low_headroom": {
+            "episodes": 26,
+            "better": 3,
+            "same": 14,
+            "worse": 9,
+            "no_answer": 0,
+            "mean_reward": 0.29236241432610965
+          },
+          "headroom": {
+            "episodes": 14,
+            "better": 3,
+            "same": 7,
+            "worse": 4,
+            "no_answer": 0,
+            "mean_reward": 0.007593235233669797
+          }
+        },
+        "best_of_8": {
+          "low_headroom": {
+            "episodes": 248,
+            "better": 2,
+            "same": 203,
+            "worse": 43,
+            "no_answer": 0,
+            "mean_reward": 0.5101173184169512
+          },
+          "headroom": {
+            "episodes": 152,
+            "better": 4,
+            "same": 127,
+            "worse": 21,
+            "no_answer": 0,
+            "mean_reward": -0.06821472987475515
+          }
+        }
+      },
+      "best_of_8": {
+        "seeds": 50,
+        "samples_per_seed": [
+          8
+        ],
+        "best_of_n_reward": {
+          "mean": 0.5115767603237341,
+          "low": 0.39258418673281753,
+          "high": 0.6252824680413471,
+          "seeds": 50
+        },
+        "mean_of_n_reward": {
+          "mean": 0.2903511400661028,
+          "low": 0.17294583820895157,
+          "high": 0.40835072417404045,
+          "seeds": 50
+        },
+        "seeds_with_headroom": 36,
+        "headroom_best_of_n_reward": {
+          "mean": 0.3216343893385196,
+          "low": 0.20695333260023072,
+          "high": 0.4422181198748174,
+          "seeds": 36
+        },
+        "headroom_mean_of_n_reward": {
+          "mean": 0.10561275209186699,
+          "low": 0.00837593361482087,
+          "high": 0.21522078038157522,
+          "seeds": 36
+        },
+        "headroom_seeds_where_some_sample_beats_default": 5,
+        "headroom_seeds_where_some_sample_is_optimal": 1,
+        "all_seeds_where_some_sample_is_optimal": 15
+      }
+    }
+  }
+}

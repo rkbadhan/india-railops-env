@@ -1,0 +1,5 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Frozen suite hashes cover bytes; keep checkout line endings identical.
+benchmarks/**/*.json text eol=lf

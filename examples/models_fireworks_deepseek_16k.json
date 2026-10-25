@@ -1,0 +1,18 @@
+[
+  {
+    "id": "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+    "context_window_tokens": 32768,
+    "max_output_tokens": 16384,
+    "command": [
+      "python",
+      "-m",
+      "railway_env.openai_worker",
+      "--base-url",
+      "https://api.fireworks.ai/inference/v1",
+      "--model",
+      "accounts/fireworks/models/deepseek-v4p1-flash-1017",
+      "--timeout",
+      "180"
+    ]
+  }
+]
