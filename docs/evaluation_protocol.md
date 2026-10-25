@@ -5,22 +5,29 @@
 ## Fixed problems and reference answers
 
 Use `benchmarks/heldout_v1/`, containing the actual 100 scenarios previously
-generated for seeds 100–199 and their stored answers. This set is held out
-because no generator parameters were selected using its outcomes. Different
-seed numbers alone do not establish that independence. Do not regenerate these
-cases from processed data for model comparisons.
+generated for seeds 100–199. The maintainers' private copy also has a stored
+answer for each case; the public copy publishes only the scenarios and the
+answer hashes. This set is held out because no generator parameters were
+selected using its outcomes. Different seed numbers alone do not establish that
+independence. Do not regenerate these cases from processed data for model
+comparisons.
 
 `benchmarks/tuning_v1/` holds seeds 0–99 and the improved, certified seed-87
 answer. Each suite has a manifest with file SHA-256 hashes and the original
-processed-input hashes. Every case contains `scenario.json` and `reference.json`.
-References are bound to the entire canonical scenario, not just its seed or id.
-Loading a suite checks file hashes and replays both baselines and the oracle
-plan. Source-data drift is reported by:
+processed-input hashes. Every tuning case contains `scenario.json` and
+`reference.json`; held-out cases publish `scenario.json` only. References are
+bound to the entire canonical scenario, not just its seed or id. Where the
+answers are present, loading a suite checks file hashes and replays both
+baselines and the oracle plan. Source-data drift is reported by:
 
 ```powershell
-python -m railway_env.suite verify benchmarks/heldout_v1
+python -m unittest tests.test_public_benchmarks   # public held-out scenarios and answer hashes
 python -m railway_env.suite verify benchmarks/tuning_v1
 ```
+
+`python -m railway_env.suite verify benchmarks/heldout_v1` also replays the
+answers, so it fails in a public checkout with `answers are withheld`. Run it
+only where the private `reference.json` files are present.
 
 A changed CSV does not change the frozen problem. A changed frozen scenario or
 answer fails verification. Git preserves LF bytes for the frozen JSON files on
